@@ -14,5 +14,11 @@
       <version>4.0</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin -->
+<dependency>
+    <groupId>org.jboss.as.plugins</groupId>
+    <artifactId>jboss-as-maven-plugin</artifactId>
+    <version>7.1.0.Final</version>
+</dependency>
   </dependencies>
-</project>
+  </project>
