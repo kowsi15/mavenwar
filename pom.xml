@@ -14,14 +14,17 @@
       <version>4.0</version>
       <scope>test</scope>
     </dependency>
+      </dependencies>
+    
     <!-- https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin -->
-<dependency>
-    <groupId>org.jboss.as.plugins</groupId>
-    <artifactId>jboss-as-maven-plugin</artifactId>
-    <version>7.1.0.Final</version>
- <configuration>
-            <hostname>localhost</hostname>
+    <plugin>
+            <groupId>org.jboss.as.plugins</groupId>
+            <artifactId>jboss-as-maven-plugin</artifactId>
+            <version>7.3.Final</version>
+            <configuration>
+               <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
+               <hostname>localhost</hostname>
             <port>9999</port>
-</dependency>
-  </dependencies>
-  </project>
+            </configuration>
+         </plugin>
+</project>
