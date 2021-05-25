@@ -15,16 +15,19 @@
       <scope>test</scope>
     </dependency>
       </dependencies>
-    
-    <!-- https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin -->
+
+  <build>
     <plugin>
             <groupId>org.jboss.as.plugins</groupId>
             <artifactId>jboss-as-maven-plugin</artifactId>
             <version>7.3.Final</version>
             <configuration>
                <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
+              <username>${jboss-as.deploy.user}</username>
+                <password>${jboss-as.deploy.pass.prod}</password>
                <hostname>localhost</hostname>
-            <port>9999</port>
+            <port>8060</port>
             </configuration>
          </plugin>
+  </build>
 </project>
