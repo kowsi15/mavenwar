@@ -23,6 +23,7 @@
       </dependencies>
 
   <build>
+    <plugins>
     <plugin>
            <configuration>
                <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
@@ -32,5 +33,7 @@
             <port>8060</port>
             </configuration>
          </plugin>
+    </plugins>
   </build>
+  
 </project>
