@@ -43,8 +43,8 @@
 							<port>9990<port>
 								<fileNames>
                                                         <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
-									</fileNames>
-                                                         </configuration>
+							        </fileNames>
+                                                </configuration>
 					</plugin>
 	 </plugins>
  </build>
