@@ -35,6 +35,7 @@
       <distributionManagement>
     <repository>
       <url>http://localhost:9990/console/App.html#standalone-deployments</url>
+      <layout>default</layout>
           </repository>
       </distributionManagement>
     </project>
