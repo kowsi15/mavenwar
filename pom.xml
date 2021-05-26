@@ -25,7 +25,7 @@
            <configuration>
                <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
               <username>kowsalya</username>
-                <password>Kowsi@15</password>
+                <password></password>
                <hostname>localhost</hostname>
             <port>9990</port>
             </configuration>
@@ -34,7 +34,7 @@
  </build>
       <distributionManagement>
     <repository>
-      <id>maven-default-http-blocker</id>
+      <id>jboss-as-maven-plugin</id>
       <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
       <layout>default</layout>
           </repository>
