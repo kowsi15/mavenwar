@@ -44,7 +44,7 @@
 								<fileNames>
                                                         <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
 									</fileNames>
-                                               </configuration>
+                                                         </configuration>
 					</plugin>
 	 </plugins>
  </build>
