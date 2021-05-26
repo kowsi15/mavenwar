@@ -24,6 +24,11 @@
 						<version>7.1.0.Final</version>
 						<executions>
 							<execution>
+								<id>undeploy</id>
+								<phase>install</phase>
+								<goals>
+									<goal>undeploy</goal>
+								</goals>
 								<configuration>
 									<ignoreMissingDeployment>true</ignoreMissingDeployment>
 								</configuration>
@@ -44,7 +49,7 @@
 								<fileNames>
                                                         <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
 							        </fileNames>
-							<timeout>30000</timeout>
+			
                                                 </configuration>
 					</plugin>
 	 </plugins>
