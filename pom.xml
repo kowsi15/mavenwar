@@ -24,8 +24,8 @@
      <version>7.1.0.Final</version>
            <configuration>
                <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
-              <username>${jboss-as.deploy.user}</username>
-                <password>${jboss-as.deploy.pass.prod}</password>
+              <username>kowsalya</username>
+                <password>Kowsi@15</password>
                <hostname>localhost</hostname>
             <port>9990</port>
             </configuration>
