@@ -35,7 +35,7 @@
       <distributionManagement>
     <repository>
       <id>__gwt_historyFrame</id>
-      <url>http://localhost:9990/console/App.html#standalone-deployments</url>
+      <url>D:\JavaProject\src\main\java</url>
       <layout>default</layout>
           </repository>
       </distributionManagement>
