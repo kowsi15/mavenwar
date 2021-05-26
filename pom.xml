@@ -28,6 +28,7 @@
                 <password>Kowsi@15</password>
                <hostname>localhost</hostname>
             <port>9990</port>
+             <url>http://localhost:9990/console/App.html#standalone-deployments</url>
             </configuration>
          </plugin>
     </plugins>
