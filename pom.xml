@@ -41,8 +41,10 @@
 							<username>kowsalya</username>
 							<password>Kowsi@15</password>
 							<port>9990<port>
+								<fileNames>
                                                         <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
-						</configuration>
+									</fileNames>
+                                               </configuration>
 					</plugin>
 	 </plugins>
  </build>
