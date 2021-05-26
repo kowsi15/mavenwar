@@ -24,11 +24,11 @@
      <version>7.1.0.Final</version>
            <configuration>
                <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
+             <goal>deploy</goal>
               <username>kowsalya</username>
-                <password>Kowsi@15</password>
+                <password></password>
                <hostname>localhost</hostname>
-            <port>9990</port>
-             <url>http://localhost:9990/console/App.html#standalone-deployments</url>
+             <port>9990</port>
             </configuration>
          </plugin>
     </plugins>
