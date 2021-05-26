@@ -24,11 +24,6 @@
 						<version>7.1.0.Final</version>
 						<executions>
 							<execution>
-								<id>undeploy</id>
-								<phase>clean</phase>
-								<goals>
-									<goal>undeploy</goal>
-								</goals>
 								<configuration>
 									<ignoreMissingDeployment>true</ignoreMissingDeployment>
 								</configuration>
