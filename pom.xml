@@ -27,10 +27,14 @@
               <username>${jboss-as.deploy.user}</username>
                 <password>${jboss-as.deploy.pass.prod}</password>
                <hostname>localhost</hostname>
-            <port>8060</port>
+            <port>9990</port>
             </configuration>
          </plugin>
     </plugins>
-  </build>
-  
-</project>
+ </build>
+      <distributionManagement>
+    <repository>
+      <url>http://localhost:9990/console/App.html#standalone-deployments</url>
+          </repository>
+      </distributionManagement>
+    </project>
