@@ -19,23 +19,50 @@
  <build>
     <plugins>
     <plugin>
-       <groupId>org.jboss.as.plugins</groupId>
-      <artifactId>jboss-as-maven-plugin</artifactId>
-     <version>7.1.0.Final</version>
-           <configuration>
-               <fileName>target/JavaProject-1.0-SNAPSHOT.war</fileName>
-             <goal>deploy</goal>
-              <username>kowsalya</username>
-                <password></password>
-               <hostname>localhost</hostname>
-             <port>9990</port>
-            </configuration>
+						<groupId>org.jboss.as.plugins</groupId>
+						<artifactId>jboss-as-maven-plugin</artifactId>
+						<version>7.1.0.Final</version>
+						<executions>
+							<execution>
+								<id>undeploy</id>
+								<phase>clean</phase>
+								<goals>
+									<goal>undeploy</goal>
+								</goals>
+								<configuration>
+									<ignoreMissingDeployment>true</ignoreMissingDeployment>
+								</configuration>
+							</execution>
+							<execution>
+								<id>deploy</id>
+								<phase>install</phase>
+								<goals>
+									<goal>deploy</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+								<server-groups>
+									<server-group>Service-Group</server-group>
+								</server-groups>
+								<profiles>
+									<profile>full-ha</profile>
+              </profiles>
+							<hostname>localhost</hostname>
+							<username>kowsalya</username>
+							<password>Kowsi@15</password>
+              <port>9990</port>
+						</configuration>
+					</plugin>
+      <configuration>
+               <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
+    </configuration>
          </plugin>
     </plugins>
  </build>
       <distributionManagement>
     <repository>
-      <id>jboss-as-maven-plugin</id>
+      <id>maven repository</id>
       <url>https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin/7.1.0.Final</url>
       <layout>default</layout>
           </repository>
