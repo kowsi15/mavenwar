@@ -44,8 +44,8 @@
 						<configuration>
 						        <hostname>localhost</hostname>
 							<username>kowsalya</username>
-							<password>kowsi</password>
-							<port>9990</port>
+							<password>Kowsi@15</password>
+							<port>9999</port>
 								<fileNames>
                                                         <fileName>JavaProject-1.0-SNAPSHOT.war</fileName>
 							        </fileNames>
